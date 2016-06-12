@@ -84,3 +84,14 @@
 	border:solid;
 	border-radius: 1px;
 }
+.ad > img {
+	float: left;
+}
+.price {
+	clear: both;
+}
+
+.ad {
+	display: inline-block;
+	padding: 10px;
+}
