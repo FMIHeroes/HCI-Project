@@ -4,6 +4,12 @@
 	overflow: hidden;
 }
 
+#wrapperR {
+	width: 100%;
+	height: 1500px;
+	overflow: hidden;
+}
+
 #wrapper2 {
 	padding-top: 5px;
 	width: 92%;
@@ -101,7 +107,7 @@
 #RegField {
 	display: inline-block;
 	width: 92%;
-	height: 40%;
+	height: 60%;
 	border:solid;
 	border-radius: 1px;
 	margin-top: 10px;
@@ -117,20 +123,19 @@
 
 #RUlabel {
 	transform: translateY(20px);
-	margin-top:15px;
+	margin-top:35px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	width: 50%;	
+	width: 500px;
 }
 
 #RUlabelFirst {
 	transform: translateY(20px);
-	margin-top:60px;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
-	width: 50%;
+	width: 500px;
 }
 
 #RUlabel > input {
@@ -139,4 +144,46 @@
 
 #RUlabelFirst > input {
 	float: right;
+}
+
+#RAUserInfo {
+	transform: translateY(-20px);
+	float:left;
+	margin-left: 5%;
+	margin-right: auto;
+	display: block;
+}
+
+#SpanUserInfo {
+	margin-top: 40px;
+	border-style: solid;
+	border-width: 1px;
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 225px;
+}
+
+#RAUserContactInfo {
+	transform: translateY(20px);
+	float:left;
+	margin-left: 5%;
+	margin-right: auto;
+	display: block;
+}
+
+#RALocationInfo {
+	transform: translateY(20px);
+	float:left;
+	margin-left: 5%;
+	margin-right: auto;
+	display: block;
+}
+
+#RegFieldA {
+	display: inline-block;
+	width: 92%;
+	height: 70%;
+	border:solid;
+	border-radius: 1px;
+	margin-top: 10px;
 }
