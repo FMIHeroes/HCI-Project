@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="Main Page.css" type="text/css" rel="stylesheet">
+		<title>AdCreating</title>
+	</head>
+	<body>
+		<div id="wrapper" style="">
+
+
+
+
+   			<div id="site" style="">
+
+   				<label id="logoholder">
+   					<a href="Main Page.html">
+   					<img id ="logo" src="logo.gif" alt="SHAMEFULL DISPLAY">
+   					</a>
+   				</label>
+
+
+
+   				<div id="wrapper2" style="">
+   					<div id="loginHolder" style="">
+   						<form id="loginField" method="post">
+   							<label id="LoginField">Потр. Име</label>
+							<label><button>ПРОФИЛ</button></label>
+   							<label><button>МОИТЕ ОБЯВИ</button></label>
+							<label><button>БЕЛЕЖНИК</button></label>
+						</form>
+   					</div>
+   					<div id="registerHolder" style="">
+   						<label><a href="https://google.com"><button>Администрация</button></a></label>
+						<label><a href="https://google.com"><button>Изход</button></a></label>
+   					</div>
+   				</div>
+
+				
+
+
+
+
+   				<div id="wrapper3" style="">
+   					<div id="Holder" style="">
+   						<form id="SearchField" method="post">
+   							<label><button>Търсене</button></label>
+   							<label><input type="text" value=""></label>
+						</form>
+   					</div>
+   					<div id="ButtonHolder" style="">
+   						<form>
+							<label><a href="https://google.com"><button>Нова обява</button></a></label>
+   							<label><a href="https://google.com"><button>Автокъщи</button></a></label>
+   							<label><a href="https://google.com"><button>Преглед на Обяви</button></a></label>
+   							<label><a href="https://google.com"><button>Разширено Търсене</button></a></label>
+   						<form>
+   					</div>
+   				</div>
+
+   				<span id="NewAdvertLabel" align="center"><label><h2>ВАШАТА ОБЯВА</h2></label></span>
+			<div id="formholder">
+				<form id="MainForm" method="POST" action="">
+					<div id="condition">
+						<label for="conditionButtons">СЪСТОЯНИЕ: </label>
+							<div class="radioButton" id="conditionButtons">
+								<input type="radio" id="rad1" name="condition" value="В ДОБРО СЪСТОЯНИЕ"></input>
+								<label for="rad1">В ДОБРО СЪСТОЯНИЕ</label><br>
+								<input type="radio" id="rad2" name="condition" value="С ПРОБЛЕМИ ИЛИ УДАРЕН"></input>
+								<label for="rad2">С ПРОБЛЕМИ ИЛИ УДАРЕН</label><br>
+								<input type="radio" id="rad3" name="condition" value="ЗА ЧАСТИ"></input>
+								<label for="rad3">ЗА ЧАСТИ</label><br>
+							</div><br>
+						<label for="brand">МАРКА: </label>
+							<select id="brand" name="brand"><option value="Opel">Opel</option></select><br>
+						<label for="model">МОДЕЛ: </label>
+							<select id="model" name="model"><option value="Combo D">Combo D</option></select><br>
+						<label for="brand">КУПЕ: </label>
+							<select id="kupe" name="kupe"><option value="избор">избор</option></select><br>
+						<label for="price">ЦЕНА: </label>
+							<div id="price">
+								<input type="radio" id="rad4" name="" value=""></input>
+								<input type="text" id="text1" name="" value=""></input>
+								<select name="valuta"><option value="ВАЛУТА">ВАЛУТА</option></select><br>
+								<input type="radio" id="rad5" name="" value=""></input>
+								<label for="rad5">ЦЕНА ПО ДОГОВАРЯНЕ</label>
+							</div><br>
+						<label for="skorosti">СКОРОСТИ: </label>
+							<select id="skorosti" name="skorosti"><option value="избор">избор</option></select><br>
+						<label for="gorivo">ГОРИВО: </label>
+							<select id="gorivo" name="gorivo"><option value="избор">избор</option></select><br>
+						<label for="skorosti">СКОРОСТИ: </label>
+							<select id="skorosti" name="skorosti"><option value="избор">избор</option></select><br>
+						<label for="moshtnost">МОЩНОСТ: </label>
+							<input id="moshtnost" type="text"><br>
+						<label for="yearOfProduction">ГОДИНА НА ПРОИЗВОДСТВО: </label>
+							<select id="yearOfProduction" name="yearOfProduction"><option value="избор">избор</option></select>
+							<input id="yearOfProduction" type="text"><br>
+						<label for="probeg">ПРОБЕГ: </label>
+							<input id="probeg" type="text"><br>
+						<label for="doors">БРОЙ ВРАТИ: </label>
+							<select id="doors" name="doors"><option value="избор">избор</option></select><br>
+						<label for="color">ЦВЯТ: </label>
+							<select id="color" name="color"><option value="избор">избор</option></select><br>
+						<label for="EUStandard">ЕВРОСТАНДАРТ: </label>
+							<select id="EUStandard" name="EUStandard"><option value="избор">избор</option></select><br>
+						<label for="location">КЪДЕ Е АВТОМОБИЛА В МОМЕНТА: </label>
+							<div class="radioButton" id="conditionButtons">
+								<input type="radio" id="rad6" name="bulgaria" value="В БЪЛГАРИЯ"></input>
+								<label for="rad6">В БЪЛГАРИЯ</label><br>
+								<input type="radio" id="rad7" name="notInBulgaria" value="ИЗВЪН БЪЛГАРИЯ"></input>
+								<label for="rad7">ИЗВЪН БЪЛГАРИЯ</label><br>
+							</div><br>
+						<input type="file" name="img" multiple>
+					</div>
+					
+					<span id="NewAdvertLabel" align="center"><label><h2>ЕКСТРИ И ОСОБЕНОСТИ</h2></label></span>
+					<div class="extras" id="comfort">
+						<h2>КОМФОРТ</h2>
+						<input type="checkbox">Климатик</input><br>
+						<input type="checkbox">Климатроник</input><br>
+						<input type="checkbox">Кожен салон</input><br>
+						<input type="checkbox">Ел.стъкла</input><br>
+						<input type="checkbox">Ел.огледала</input><br>
+						<input type="checkbox">Шибедах</input><br>
+						<input type="checkbox">Стерео уредба</input><br>
+						<input type="checkbox">Алуминиеви джанти</input><br>
+						<input type="checkbox">DVD/TV</input><br>
+					</div>
+					<div class="extras" id="Security">
+						<h2>СИГУРНОСТ</h2>
+						<input type="checkbox">4x4</input><br>
+						<input type="checkbox">ABS</input><br>
+						<input type="checkbox">Airbag</input><br>
+						<input type="checkbox">Ксенонови фарове</input><br>
+						<input type="checkbox">Халогенни фарове</input><br>
+						<input type="checkbox">ASR/Тракшън контрол</input><br>
+						<input type="checkbox">Аларма</input><br>
+						<input type="checkbox">Центр.заключване</input><br>
+						<input type="checkbox">Застраховка</input><br>
+						<input type="checkbox">Брониран</input><br>
+						<input type="checkbox">Старт-Стоп система</input><br>
+						<input type="checkbox">Безключово палене</input><br>
+					</div>
+					<div class="extras" id="other">
+						<h2>ДРУГО</h2>
+						<input type="checkbox">Типтроник/Мултитроник</input><br>
+						<input type="checkbox">Автопилот</input><br>
+						<input type="checkbox">Бордови компютър</input><br>
+						<input type="checkbox">Гаранция</input><br>
+						<input type="checkbox">Навигационна система</input><br>
+						<input type="checkbox">Тунинг</input><br>
+						<input type="checkbox">Теглич</input><br>
+						<input type="checkbox">Хладилен</input><br>
+					</div>
+				<span id="NewAdvertLabel" align="center"><label><h2>ЕКСТРИ И ОСОБЕНОСТИ</h2></label></span>
+					<textarea name="description" rows="8" cols="135"></textarea>
+				</form>
+			</div>
+			
+			
+   			</div>
+			
+			
+			
+    		<div id="reklama" style="">
+    			<a href="http://dilbert.com/strip/2001-10-25" target="new">
+    				<img id="advert" src="advert.png" alt="SHAMEFULL DISPLAY" style="width:150px;height:500px;">
+    			</a>
+    		</div>
+
+
+
+
+		</div>
+	</body>
+</html>
