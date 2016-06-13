@@ -263,3 +263,13 @@ textarea {
 	border-width: 1px;
 	margin-left: 10px;
 }
+
+#cartitle {
+	margin-left: 10px;
+}
+
+#bookmarkLabel {
+	float: right;
+	margin-top: 150px;
+	margin-right: 50px;
+}
